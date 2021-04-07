@@ -64,7 +64,7 @@ class Solution:
 
 if __name__ == '__main__':
     tag = Solution()
-    #nums = [4, 5, 6, 7, 0, 1, 2]
-    nums = []
-    target = 3
+    nums = [4, 5, 6, 7, 0, 1, 2]
+    # nums = []
+    target = 2
     print(tag.search(nums,target))

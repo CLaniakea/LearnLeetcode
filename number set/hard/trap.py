@@ -38,6 +38,8 @@ class Solution:
         return volume
 '''
 # after optimization
+
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         left = 0
@@ -59,8 +61,9 @@ class Solution:
                 right -= 1
         return volume
 
+
 tag = Solution()
-height = [0,1,0,2,1,0,1,3,2,1,2,1]
+height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
 # height = [5,4,1,2]
 # height = [2,0,2]
 # height = [4,3,5,3,4]
