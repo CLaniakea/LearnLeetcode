@@ -24,3 +24,10 @@ class Solution:
 tag = Solution()
 nums = [3,3,1,3]
 print(tag.findMin(nums))
+
+'''
+三种情况，都是和右侧比较
+若中小于右，舍右
+若中大于右，舍左
+若中等于右，右-1
+'''
